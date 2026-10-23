@@ -1,3 +1,5 @@
+package Lição2;
+
 public class Lição2 {
 
     public static void main (String[] args){
