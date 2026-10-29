@@ -2,7 +2,7 @@ package Lição4;
 
 import java.util.Scanner;
 
-public class For {
+public class ForWhile {
 
     public static void main (String [] args) {
 
@@ -34,15 +34,21 @@ public class For {
         while (contador > 0) {
 
             System.out.println(contador);
+
             contador--;
 
         }
 
         if (nome.length() > 6){
-            for(int i3 = 0; i3 < n1; i3++)
+
+            for(int i2 = 0; i2 < n1; i2++)
+
             System.out.println(nome);
+
         }else{
+
             System.out.println(nome);
+
         }
     }
 }
